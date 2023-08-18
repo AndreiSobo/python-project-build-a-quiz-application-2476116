@@ -76,6 +76,10 @@ class QuizApp:
                     self.qm.print_results()
 
                     # TODO: ask the user if they want to save the results
+                    dosave = input("Do you want to save the results? (y/n)")
+                    dosave = dosave.upper()
+                    if len(dosave) > 0 and dosave == "Y":
+                        self.qm.save_results()
 
                 except:
                     self.menu_error()
