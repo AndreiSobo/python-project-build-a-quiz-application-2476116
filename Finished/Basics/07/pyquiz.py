@@ -1,5 +1,7 @@
 # Example file for LinkedIn Learning Course "Python: Build a Quiz App" by Joe Marini
 # pyquiz.py -- Main starting point of the program
+
+#TODO suggestion is to add additional information on the saved .txt such as which questions are correct
 from quizmanager import QuizManager
 
 class QuizApp:
