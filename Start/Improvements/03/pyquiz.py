@@ -14,7 +14,7 @@ class QuizApp:
         # print the greeting at startup
         self.greeting()
 
-        # ask the user for their name
+        # ask the user for their namee
         self.username = input("What is your name? ")
         print(f"Welcome, {self.username}!")
         print()
